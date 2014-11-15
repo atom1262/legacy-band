@@ -16,3 +16,24 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+@import "nav";
+@import "welcome";
+@import "band";
+@import "music";
+@import "gig";
+@import "footer";
+@import "logo";
+
+.main-section {
+  @include outer-container;
+  @include clearfix;
+  height: 100%;
+
+  h2 {
+    text-align: center;
+  }
+
+  div {
+    padding: 3em 0 3em 0;
+  }
+}
