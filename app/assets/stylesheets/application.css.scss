@@ -20,7 +20,7 @@
 @import "welcome";
 @import "band";
 @import "music";
-@import "gig";
+@import "gigs";
 @import "footer";
 @import "logo";
 
@@ -34,6 +34,6 @@
   }
 
   div {
-    padding: 3em 0 3em 0;
+    padding: 10em 0 10em 0;
   }
 }
