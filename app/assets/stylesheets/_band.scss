@@ -1,0 +1,23 @@
+.band {
+
+  .member-container {
+    display: block;
+    text-align: center;
+
+    .member {
+      display: inline-block;
+      padding: 5em;
+    }
+
+    img {
+      height: 10em;
+      border: 0.5em solid $blue;
+      border-radius: 1em;
+      box-shadow: 0.5em 0.5em 0.5em black;
+    }
+
+    img:hover {
+      box-shadow: 0.5em 0.5em 0.5em coral;
+    }
+  }
+}
