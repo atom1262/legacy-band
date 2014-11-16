@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
   var nb = $(".nav-bar");
-      nbs = "nav-bar-scrolled";
-      hdr = $('header').height();
+  var nbs = "nav-bar-scrolled";
+  var hdr = $('header').height();
 
-  $(window).scroll(function() {
-    if( $(this).scrollTop() > hdr ) {
+  $(window).bind('scroll', function() {
+    if ($(this).scrollTop() > hdr) {
       nb.addClass(nbs);
     } else {
       nb.removeClass(nbs);
     }
-  });
+  })
 });

@@ -1,0 +1,16 @@
+.music {
+
+  .video-container {
+    display: block;
+    text-align: center;
+
+    .video {
+      display: inline-block;
+      padding: 3em;
+    }
+
+    iframe {
+      border: 0.5em solid $blue;
+    }
+  }
+}
