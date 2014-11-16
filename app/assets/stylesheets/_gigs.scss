@@ -1,0 +1,18 @@
+.gigs {
+
+  .next-gig {
+    display: block;
+    text-align: center;
+
+    .gig-info {
+      display: inline-block;
+      padding: 3em;
+      text-align: left;
+      float: left;
+
+      h4, h5, h6, p {
+        line-height: 2em;
+      }
+    }
+  }
+}

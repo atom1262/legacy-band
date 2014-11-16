@@ -17,7 +17,7 @@
 @import "base/base";
 @import "neat";
 @import "nav";
-@import "welcome";
+@import "about";
 @import "band";
 @import "music";
 @import "gigs";
@@ -41,6 +41,6 @@ body {
   }
 
   div {
-    padding: 10em 0 10em 0;
+    padding: 4em 0 6em 0;
   }
 }
