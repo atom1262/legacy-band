@@ -1,0 +1,14 @@
+.header {
+  @include clearfix;
+  background-color: coral;
+  text-align: center;
+  padding: 1em 0 2em 0;
+  height: 15em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  img {
+    height: 12.5em;
+  }
+}
