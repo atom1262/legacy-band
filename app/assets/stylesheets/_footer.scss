@@ -1,4 +1,4 @@
-footer {
+.footer {
   $footer-background: desaturate(darken($base-accent-color, 20), 30);
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, .6);
@@ -8,12 +8,7 @@ footer {
   background: $footer-background;
   padding: $base-spacing*2 $gutter;
   width: 100%;
-
-
-  .footer-logo {
-    text-align: center;
-    margin-bottom: 2em;
-  }
+  z-index: 300;
 
   .footer-links {
     @include clearfix;

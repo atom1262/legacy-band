@@ -4,7 +4,7 @@ $(document).ready(function() {
   var nbs = "nav-bar-scrolled";
   var hdr = $('header').height();
 
-  $(window).bind('scroll', function() {
+  $(window).scroll(function() {
     if ($(this).scrollTop() > hdr) {
       nb.addClass(nbs);
     } else {
