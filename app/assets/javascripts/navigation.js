@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
-  var nb = $(".nav-bar");
-  var nbs = "nav-bar-scrolled";
-  var hdr = $('header').height();
+  var  mn = $(".nav-bar");
+      mns = "nav-bar-scrolled";
+      hdr = $('header').height();
 
   $(window).scroll(function() {
-    if ($(this).scrollTop() > hdr) {
-      nb.addClass(nbs);
+    if( $(this).scrollTop() > hdr ) {
+      mn.addClass(mns);
     } else {
-      nb.removeClass(nbs);
+      mn.removeClass(mns);
     }
-  })
+  });
 });
