@@ -17,7 +17,9 @@ ActiveRecord::Schema.define(version: 20141120013330) do
   enable_extension "plpgsql"
 
   create_table "gigs", force: true do |t|
-    t.string   "name"
+    t.string   "name",       null: false
+    t.string   "city",       null: false
+    t.string   "state",      null: false
     t.string   "address",    null: false
     t.string   "date"
     t.text     "details"

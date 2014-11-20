@@ -12,7 +12,7 @@ class GigsController < ApplicationController
   private
 
   def gig_params
-    params.require(:gig).permit(:name, :address, :date, :details, :latitude, :longitude)
+    params.require(:gig).permit(:name, :city, :state, :address, :date, :details, :latitude, :longitude)
   end
 
 end

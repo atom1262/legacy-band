@@ -2,7 +2,7 @@
 
   <div class="gig-info">
     <h4 class="venue"><%= @gig.name %></h4>
-    <h5 class="address"><%= @gig.address %></h5>
+    <h5 class="address"><%= @gig.city %>, <%= @gig.state %> <%= @gig.address %></h5>
     <h6 class="date"><%= @gig.date %></h6>
     <p class="details"><%= @gig.details %></p>
     <%= button_to 'New Gig', new_gig_path, method: :get %>
@@ -15,7 +15,7 @@
       frameborder="0" style="border:0"
       src="https://www.google.com/maps/embed/v1/directions?key=<%= ENV.fetch('API_KEY') %>
         &origin=current+location
-        &destination=<%= @gig.latitude %>,<%= @gig.longitude %>">
+        &destination=<%= @gig.name %>+<%= @gig.city %>+<%= @gig.state %>">
     </iframe>
   </div>
 
