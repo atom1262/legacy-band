@@ -1,10 +1,11 @@
 <div class="next-gig">
 
   <div class="gig-info">
-    <h4 class="venue">Capone's Restaurant</h4>
-    <h5 class="address">123 Main St., Peabody, MA</h5>
-    <h6 class="date">Month and Day @ 8:00pm</h6>
-    <p class="info">Addional info such as cover and stuff</p>
+    <h4 class="venue"><%= @gig.name %></h4>
+    <h5 class="address"><%= @gig.address %></h5>
+    <h6 class="date"><%= @gig.date %></h6>
+    <p class="details"><%= @gig.details %></p>
+    <%= button_to 'New Gig', new_gig_path, method: :get %>
   </div>
 
   <div>

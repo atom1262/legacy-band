@@ -1,0 +1,8 @@
+<div class="gig-form">
+  <%= form_for @gig do |f| %>
+    <%= f.text_field :name, placeholder: 'Venue Name' %>
+    <%= f.text_field :address, placeholder: 'Venue Address' %>
+    <%= f.text_field :date, placeholder: 'Gig Date and Time' %>
+    <%= f.text_area :details, placeholder: 'Gig Details, i.e. Cover, Parking, etc.' %>
+  <%= f.submit 'Update Gig' %>
+<% end %>
