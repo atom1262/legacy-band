@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
+gem 'geocoder'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
