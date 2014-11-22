@@ -13,9 +13,8 @@
       width="600"
       height="450"
       frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/directions?key=<%= ENV.fetch('API_KEY') %>
-        &origin=current+location
-        &destination=<%= @gig.name %>+<%= @gig.city %>+<%= @gig.state %>">
+      src="https://www.google.com/maps/embed/v1/place?key=<%= ENV.fetch('API_KEY') %>
+        &q=<%= @gig.name %>+<%= @gig.city %>+<%= @gig.state %>">
     </iframe>
   </div>
 
