@@ -1,14 +1,13 @@
 $(document).ready(function() {
-
-  var  mn = $(".nav-bar");
-      mns = "nav-bar-scrolled";
-      hdr = $('header').height();
+  var  nb = $(".nav-bar");
+      nbs = "nav-bar-scrolled";
+      hdr = $(".header").height();
 
   $(window).scroll(function() {
     if( $(this).scrollTop() > hdr ) {
-      mn.addClass(mns);
+      nb.addClass(nbs);
     } else {
-      mn.removeClass(mns);
+      nb.removeClass(nbs);
     }
   });
 });
