@@ -8,7 +8,7 @@
     <!--<%= button_to 'New Gig', new_gig_path, method: :get %>-->
     <div class="contact">
       <h5>Booking Information</h5>
-      <h6><%= link_to 'Tim Patterson', "mailto:tim.patterson1@comcast.net" %> - 978-927-7448</h6>
+      <h6><%= link_to 'Tim Patterson', href="mailto:tim.patterson1@comcast.net" %> - 978-927-7448</h6>
       <h6>Chuck Delisle - 781-913-1395</h6>
     </div>
   </div>
@@ -17,7 +17,7 @@
     <iframe
       width="600"
       height="450"
-      frameborder="0" style="border:0"
+      frameborder="0" style="border:1"
       src="https://www.google.com/maps/embed/v1/place?key=<%= ENV.fetch('API_KEY') %>
         &q=<%= @gig.name %>+<%= @gig.city %>+<%= @gig.state %>">
     </iframe>
