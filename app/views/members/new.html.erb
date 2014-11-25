@@ -1,0 +1,8 @@
+<h1>Add New Band Member</h2>
+
+<%= form_for @member do |f| %>
+  <%= f.text_field :first_name, placeholder: 'First Name' %>
+  <%= f.text_field :last_name, placeholder: 'Last Name' %>
+  <%= f.text_field :instrument, placeholder: 'Instrument' %>
+  <%= f.submit 'Add Member' %>
+<% end %>

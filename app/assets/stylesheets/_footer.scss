@@ -8,7 +8,6 @@
   background: $footer-background;
   padding: $base-spacing*2 $gutter;
   width: 100%;
-  z-index: 300;
 
   .footer-links {
     @include clearfix;

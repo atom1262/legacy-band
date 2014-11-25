@@ -8,16 +8,10 @@
   position: relative;
   z-index: 150;
 
-  ul {
+  li {
     display: inline;
-    position: relative;
-    z-index: 300;
-
-    li {
-      display: inline;
-      padding: 0 1em 0 1em;
-      color: white;
-    }
+    padding: 0 1em 0 1em;
+    color: white;
   }
 }
 

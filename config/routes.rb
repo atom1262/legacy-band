@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   resources :gigs, only: [:new, :create]
 
+  resources :members, only: [:new, :create]
+
 end
