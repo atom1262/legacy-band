@@ -24,6 +24,7 @@
 @import "music";
 @import "gigs";
 @import "footer";
+@import "slick";
 
 body {
   padding: 14.5em 0 0 0;
@@ -36,6 +37,12 @@ body {
   height: 100%;
   position: relative;
   background-color: $light-gray;
+  overflow: hidden;
+
+  .main-inner {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
   h2 {
     text-align: center;

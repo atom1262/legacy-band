@@ -18,6 +18,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development do
   gem 'spring'
   gem 'binding_of_caller'
-  gem 'better_errors'
   gem 'dotenv-rails'
 end

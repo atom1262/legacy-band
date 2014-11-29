@@ -10,8 +10,15 @@
 
   li {
     display: inline;
-    padding: 0 1em 0 1em;
     color: white;
+    &.active {
+      border-bottom: 1px solid $blue;
+    }
+
+    a {
+      line-height: 4em;
+      padding: 0 1em 0 1em;
+    }
   }
 }
 
