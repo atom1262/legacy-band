@@ -1,5 +1,7 @@
+$nav-background: desaturate(darken($base-accent-color, 20), 30);
+
 .nav-bar {
-  background-color: $legacy-yellow;
+  background-color: $nav-background;
   width: 100%;
   height: 5em;
   margin-bottom: -5em;
@@ -7,6 +9,11 @@
   text-align: center;
   position: relative;
   z-index: 150;
+
+  .facebook {
+    font-family: "Tahoma", $base-font-family;
+    font-style: bold;
+  }
 
   li {
     display: inline;
@@ -16,7 +23,7 @@
       line-height: 5em;
       padding: 0 1em 0 1em;
       &.active {
-        border-bottom: 1px solid $legacy-blue;
+        border-bottom: 1px solid $legacy-red;
         border-width: medium;
         padding-bottom: 0.5em;
       }
