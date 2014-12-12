@@ -1,5 +1,5 @@
 .nav-bar {
-  background-color: $legacy-white;
+  background-color: $legacy-yellow;
   width: 100%;
   height: 5em;
   margin-bottom: -5em;
@@ -16,7 +16,7 @@
       line-height: 5em;
       padding: 0 1em 0 1em;
       &.active {
-        border-bottom: 1px solid $blue;
+        border-bottom: 1px solid $legacy-blue;
         border-width: medium;
         padding-bottom: 0.5em;
       }
