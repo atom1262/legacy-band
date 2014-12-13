@@ -12,6 +12,7 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'geocoder'
+gem 'clearance'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
