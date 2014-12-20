@@ -12,7 +12,6 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'geocoder'
-gem 'clearance'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
@@ -21,3 +20,5 @@ group :development do
   gem 'binding_of_caller'
   gem 'dotenv-rails'
 end
+
+gem 'rails_12factor',      group: :prod

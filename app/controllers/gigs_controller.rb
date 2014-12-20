@@ -1,4 +1,5 @@
 class GigsController < ApplicationController
+  http_basic_authenticate_with :name => "admin", :password => "S3ger57*"
 
   def new
     @gig = Gig.new
