@@ -104,19 +104,19 @@
 }
 
 .img-1 {
-  background-image: asset-data-url('LegacyTest.jpg');
+  background-image: asset-data-url('assets/LegacyTest.jpg');
 }
 
 .img-2 {
-  background-image: asset-data-url('LegacyTim.jpg');
+  background-image: asset-url('LegacyTim.jpg', image);
 }
 
 .img-3 {
-  background-image: image-url('LegacyFreddy.jpg');
+  background-image: asset-url('assets/LegacyFreddy.jpg', image);
 }
 
 .img-4 {
-  background-image: image-url('LegacyRick.jpg');
+  background-image: image-url('assets/LegacyRick.jpg');
 }
 
 .img-5 {
