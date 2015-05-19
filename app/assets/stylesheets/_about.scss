@@ -11,7 +11,7 @@
   $hero-background-bottom: #20392B;
   $hero-color: white;
   $gradient-angle: 10deg;
-  $hero-image: url(asset-path('LegacyGroup2.jpg'));
+  $hero-image: image-url('LegacyGroup2.jpg');
 
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
 
