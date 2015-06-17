@@ -6,8 +6,8 @@ class Gig < ActiveRecord::Base
     name.gsub(/\s/, '+')
   end
 
-  def api_key
-    ENV.fetch('KEY')
+  def map_key
+    ENV.fetch('MAP_KEY')
   end
 
 end

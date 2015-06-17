@@ -20,7 +20,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development do
   #gem 'spring'
   gem 'binding_of_caller'
-  gem 'dotenv-rails'
 end
 
-gem 'rails_12factor',      group: :production
+group :production do
+  gem 'rails_12factor'
+end
+
+group :development, :production do
+  gem 'dotenv-rails'
+end
